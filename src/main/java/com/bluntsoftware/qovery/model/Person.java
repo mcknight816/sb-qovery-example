@@ -10,9 +10,9 @@ import lombok.Data;
 @AllArgsConstructor
 @Builder
 public class Person {
-  @Id
-  String id;
-  String firstName;
-  String lastName;
-  Integer age;
+	@Id
+	String id;
+	String firstName;
+	String lastName;
+	Integer age;
 }
